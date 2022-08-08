@@ -1,0 +1,194 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #f7f8f9;
+  box-shadow: 0 0 2px grey;
+  position: sticky;
+  top: 0%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 1300px;
+  margin: auto;
+}
+
+.navbar img {
+margin-left: 50px;
+  width: 70px;
+  cursor: pointer;
+}
+
+.country_select {
+
+  width: 250px;
+}
+
+.select svg {
+  font-size: 15px;
+}
+
+.select {
+  cursor: context-menu;
+  margin-left: 80px;
+  width: 250px;
+  padding: 10px 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid black;
+}
+
+
+
+.option p {
+  margin-left: 10px;
+  color: #444444;
+}
+
+.option svg {
+  color: #83929c;
+}
+
+.option_box{
+  box-shadow: 0 0 10px grey;
+  background-color: white;
+  display: flex;
+  position: absolute;
+  top: 60px;
+}
+
+.select p {
+  margin-left: -115px;
+  color: #444444;
+}
+
+.search_box {
+  display: flex;
+  margin-left: 30px;
+}
+
+.search_box svg {
+  background-color: black;
+  color: white;
+  padding: 14px;
+  font-size: 15px;
+  border-radius: 0px 6px 6px 0px;
+  cursor: pointer;
+}
+
+.searchclass {
+  padding: 10px;
+  width: 400px;
+  font-size: 15px;
+  border: 2px solid black;
+  border-radius: 6px 0px 0px 6px;
+}
+
+#login_tag {
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 70px;
+}
+
+.message svg {
+  font-size: 22px;
+  color: black;
+  margin-left: 25px;
+}
+
+.my_img svg {
+  font-size: 22px;
+  color: black;
+  margin-left: 25px;
+cursor: pointer;
+}
+
+.nameandimg img {
+  margin-left: 0px;
+  height: 60px;
+  width: 65px;
+  border-radius: 50%;
+  cursor:auto;
+
+
+}
+
+.nameandimg p {
+
+  margin-top: 12px;
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+cursor: context-menu;
+}
+
+.nameandimg {
+  
+  display: flex;
+  align-items: center;
+  margin: 10px 0px 20px 0px;
+
+}
+
+.nameandimg h6{
+  cursor: pointer;
+
+}
+
+.dropdown {
+  width: 230px;
+  box-shadow: 0 0 10px grey;
+  padding: 15px;
+  background-color: white;
+  position: absolute;
+  top: 71px;
+
+}
+
+.dropdown ul li {
+  display: flex;
+  padding: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.dropdown ul li:hover {
+  background-color: #c7dcff;
+}
+
+.dropdown ul {
+  margin-top: 20px;
+}
+
+
+.dropdown ul li p {
+  margin-left: 0px;
+  font-size: 17px;
+}
+
+.selling_page button {
+  margin-left: 25px;
+  border-style: solid;
+  border-width: 5px;
+  border-top-color: #23e5db;
+  border-left-color: #ffce32;
+  border-right-color: #3a77ff;
+  border-bottom-color: #3a77ff;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 30px;
+  background-color: white;
+  color: black;
+  display: flex;
+}
