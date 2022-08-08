@@ -42,7 +42,7 @@ function Item() {
 
                     </div>
                     <div className="productDescription">
-                        <p className="p-bold">Product Desc</p>
+                        <p className="p-bold">Product Description</p>
                         <br/>
                         <p>{Description}</p>
 
